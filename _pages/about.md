@@ -18,5 +18,5 @@ social: False  # includes social icons at the bottom of the page
 ---
 
 <p style="font-family: Futura;">
-I am a first year Machine Learning Masters student at Carnegie Mellon University. I am advised by Aditi Raghunathan working on the generalization and robustness of large language models in RLHF. Also, I am supported by the Gwanjeong Educational Foundation Scholarship. Prior to joining CMU, I received my Bachelor's in Electrical & Electronic Engineering at Yonsei University.
+I am a first year Machine Learning Masters student at Carnegie Mellon University. I am advised by [Aditi Raghunathan](https://www.cs.cmu.edu/~aditirag/) working on the generalization and robustness of large language models in RLHF. Also, I am supported by the Gwanjeong Educational Foundation Scholarship. Prior to joining CMU, I received my Bachelor's in Electrical & Electronic Engineering at Yonsei University.
 </p>

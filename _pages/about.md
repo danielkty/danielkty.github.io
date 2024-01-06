@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size: 14px; font-family: Futura; text-align: center;">taeyoun3 at cs dot cmu dot edu</p>
+    <p style="font-size: 18px; font-family: Futura; text-align: center;">taeyoun3 at cs dot cmu dot edu</p>
 
 news: False  # includes a list of news items
 latest_posts: False  # includes a list of the newest posts

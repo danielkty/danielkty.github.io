@@ -22,9 +22,11 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            {%- assign abbr_with_breaks = entry.abbr | replace: ' ', '<br>' -%}
+            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{abbr_with_breaks}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
+            {%- assign abbr_with_breaks = entry.abbr | replace: ' ', '<br>' -%}
+            <abbr class="badge">{{abbr_with_breaks}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>

@@ -29,22 +29,6 @@
         {%- endif -%}
         </div>
         {%- endif -%}
-          <!-- {%- assign abbrs = entry.abbr | split: ',' -%}
-          {%- for abbr in abbrs -%}
-            {%- assign abbr = abbr | strip -%}
-            {%- if site.data.venues[abbr] -%}
-              {%- assign venue_style = nil -%}
-              {%- if site.data.venues[abbr].color != blank -%}
-                {%- assign venue_style = site.data.venues[abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-              {%- endif -%}
-              <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[abbr].url}}">{{abbr}}</a></abbr>
-            {%- else -%}
-              <abbr class="badge">{{abbr}}</abbr>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-        </div>
-        {%- endif -%} -->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">

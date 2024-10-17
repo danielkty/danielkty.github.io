@@ -13,11 +13,11 @@ profile:
 
 news: False  # includes a list of news items
 latest_posts: False  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: False # includes a list of papers marked as "selected={true}"
 social: False  # includes social icons at the bottom of the page
 ---
 
 
-I am a second year Machine Learning Masters student at Carnegie Mellon University (CMU). I am working with [Aditi Raghunathan](https://www.cs.cmu.edu/~aditirag/) on generalization and robustness. Specifically, I am interested in making language models more robust to distribution shifts and adversarial attacks through better pretraining, fine-tuning, and understanding of data. My recent research has been focused around jailbreaking, retrieval-augmented generation, and out-of-distribution performance prediction of Foundation models. 
+I am a second year Machine Learning Masters student at Carnegie Mellon University. I am working with [Aditi Raghunathan](https://www.cs.cmu.edu/~aditirag/) on generalization and robustness. Specifically, I am interested in making language models more robust to distribution shifts and adversarial attacks through better pretraining, fine-tuning, and data curation. My recent research has been focused around jailbreaking, retrieval-augmented generation, and out-of-distribution performance prediction of Foundation models. 
 
 I am supported by the [Gwanjeong Educational Foundation Scholarship](https://www.ikef.or.kr/). Before coming to CMU, I received my Bachelors in Electrical & Electronic Engineering at Yonsei University.

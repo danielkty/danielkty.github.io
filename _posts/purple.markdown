@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing the Limits of Jailbreaking Defenses with the Purple Problem"
 date:   2015-06-12 22:20:59 +00:00
-image: /images/hands2015.png
+# image: /images/hands2015.png
 categories: research
 author: "Taeyoun Kim"
 subtitle: "Jailbreaking"

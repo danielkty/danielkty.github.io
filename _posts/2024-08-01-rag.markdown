@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Mitigating Social Bias in RAG"
+date:   2024-08-01 00:00:00 +00:00
+# image: /images/purple.png
+categories: project
+author: "Taeyoun Kim"
+subtitle: "RAG"
+venue: "Ongoing"
+# slides: /pdfs/hands2015.pdf
+# authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
+# arxiv: https://openreview.net/forum?id=abfi2EuPB0
+# code: https://github.com/kothasuhas/purple-problem
+---
+
+We decompose a RAG system into three components: the LLM, the embedder, and the corpus. Each component can introduce bias its own bias in the RAG system accumulating complex bias. We find that it is possible to mitigate bias just by reverse biasing the embedder. Furthermore, we empirically find a linear relationship between the embedder's bias and RAG system's bias which has varying sensitivity for different LLMs. We investigate the three different methods of fine-tuning, projecting, and stochastic ranking to mitigate bias and fine that fine-tuning maintains utility while reducing bias. We also find that a reverse-biased embedder makes the entire RAG system robust to variations in corpus bias.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generalizing Point-and-Click Behavior to Vision"
-date:   2022-08-02 00:00:00 +00:00
+date:   2022-08-01 00:00:00 +00:00
 image: /images/virtualtarget.png
 categories: project
 author: "Taeyoun Kim"

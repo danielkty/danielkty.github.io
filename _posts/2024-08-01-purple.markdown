@@ -2,11 +2,11 @@
 layout: post
 title:  "Testing the Limits of Jailbreaking Defenses with the Purple Problem"
 date:   2024-08-01 00:00:00 +00:00
-image: /images/purple-problem-new.pdf
+image: /images/purple.png
 categories: research
 author: "Taeyoun Kim"
 subtitle: "Jailbreaking"
-venue: "NeurIPS 2024 Safe GenAI"
+venue: "NeurIPS Safe GenAI"
 # slides: /pdfs/hands2015.pdf
 authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
 arxiv: https://openreview.net/forum?id=abfi2EuPB0

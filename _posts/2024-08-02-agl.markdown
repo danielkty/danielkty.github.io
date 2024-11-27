@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Predicting the Performance of Foundation Models via Agreement-on-the-Line"
+date:   2024-08-01 00:00:00 +00:00
+image: /images/purple.png
+categories: research
+author: "Taeyoun Kim"
+subtitle: "AGL"
+venue: "NeurIPS"
+# slides: /pdfs/hands2015.pdf
+authors: "Rahul Saxena*, <strong>Taeyoun Kim*</strong>, Aman Mehra*, Christina Baek, Zico Kolter, Aditi Raghunathan"
+arxiv: https://arxiv.org/abs/2404.01542
+
+---
+We apply Agreement-on-the-Line to predicting the OOD performance of foundation models. Interestingly, we fine that randomly initializing the linear head for fine-tuning leads to the highest diversity for an ensemble of models to exhibit AGL. This even applies to linear probing.

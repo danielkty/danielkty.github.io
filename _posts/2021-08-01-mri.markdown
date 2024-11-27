@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "The Application of Local Sub-voxel Shifting on Multi-echo GRE-based Myelin Water Imaging"
+date:   2021-08-01 00:00:00 +00:00
+# image: /images/purple.png
+categories: research
+author: "Taeyoun Kim"
+subtitle: "MRI"
+venue: "ICMRI (Oral)"
+# slides: /pdfs/hands2015.pdf
+authors: "<strong>Taeyoun Kim</strong>, Muyul Park, Jaeuk Yi, Dong-Hyun Kim"
+# arxiv: https://openreview.net/forum?id=abfi2EuPB0
+# code: https://github.com/kothasuhas/purple-problem
+
+---
+We apply local sub-voxel shifting in the fourier space to reduce noise in multi-echo GRE-based Myelin Water Imaging.

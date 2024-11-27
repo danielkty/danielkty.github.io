@@ -2,7 +2,7 @@
 layout: post
 title:  "Predicting the Performance of Foundation Models via Agreement-on-the-Line"
 date:   2024-08-01 00:00:00 +00:00
-image: /images/purple.png
+image: /images/agl.png
 categories: research
 author: "Taeyoun Kim"
 subtitle: "AGL"

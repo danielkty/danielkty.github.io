@@ -2,7 +2,7 @@
 layout: post
 title:  "Mitigating Social Bias in RAG"
 date:   2024-08-01 00:00:00 +00:00
-image: /images/ragsystem.png
+image: /images/ragsystem.pdf
 categories: project
 author: "Taeyoun Kim"
 subtitle: "RAG"

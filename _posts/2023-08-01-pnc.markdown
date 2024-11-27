@@ -2,7 +2,7 @@
 layout: post
 title:  "Generalizing Point-and-Click Behavior to Vision"
 date:   2023-08-02 00:00:00 +00:00
-image: /images/pnc.png
+image: /images/virtualtarget.png
 categories: project
 author: "Taeyoun Kim"
 subtitle: "PNC"

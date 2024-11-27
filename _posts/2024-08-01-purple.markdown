@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing the Limits of Jailbreaking Defenses with the Purple Problem"
 date:   2024-08-01 00:00:00 +00:00
-image: /images/purple.jpeg
+image: /images/purple.png
 categories: research
 author: "Taeyoun Kim"
 subtitle: "Jailbreaking"
@@ -12,4 +12,4 @@ authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
 arxiv: https://openreview.net/forum?id=abfi2EuPB0
 code: https://github.com/kothasuhas/purple-problem
 ---
-The Purple Problem: Can jailbreaking defenses succeed in defending against the simplest definition of preventing the word <span style="color:purple;">purple</span>? All defenses we consider fail to enforce the Purple Problem. Moreover, adaptive attacks and increased compute reveal that existing defenses are weaker than reported. 
+The Purple Problem: Can jailbreaking defenses succeed in defending against the simplest definition of preventing the word <span style="color:purple; font-weight:bold;">purple</span>? All defenses we consider fail to enforce the Purple Problem. Moreover, adaptive attacks and increased compute reveal that existing defenses are weaker than reported. 

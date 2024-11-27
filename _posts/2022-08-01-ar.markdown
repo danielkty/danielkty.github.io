@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Impact of Different Joints on Creating a 3D Hand Mesh"
+date:   2022-08-01 00:00:00 +00:00
+image: /images/hands.png
+categories: project
+author: "Taeyoun Kim"
+subtitle: "Augmented Reality"
+venue: "Undergraduate Thesis"
+# slides: /pdfs/hands2015.pdf
+authors: "<strong>Taeyoun Kim*</strong>, Hoseok Tong*, Jinoh Lee*"
+---
+We use a PointNet to reconstruct hand meshes from 26 hand joints extracted from Microsoft Hololens 2. We study the impact of the fingertips and metacarpals to show that fingertips are crucial for optimization of the network.

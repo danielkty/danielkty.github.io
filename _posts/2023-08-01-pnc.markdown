@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Generalizing Point-and-Click Behavior to Vision"
+date:   2023-08-02 00:00:00 +00:00
+image: /images/pnc.png
+categories: project
+author: "Taeyoun Kim"
+subtitle: "PNC"
+# venue: "NeurIPS Safe GenAI"
+# slides: /pdfs/hands2015.pdf
+# authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
+
+---
+We model human point-and-click behavior with Soft-Actor Critic to understand human motor control within the BUMP process. We generalize point-and-click to perform any visual task as long as a target region and avoidance region is provided.

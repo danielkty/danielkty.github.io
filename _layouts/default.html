@@ -84,7 +84,7 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <em style="color:darkblue;">{{ post.venue }}</em>, <span style="color:darkblue;">{{ post.date | date: "%Y" }}</span>
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /

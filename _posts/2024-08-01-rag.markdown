@@ -10,7 +10,7 @@ venue: "Ongoing"
 # slides: /pdfs/hands2015.pdf
 # authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
 # arxiv: https://openreview.net/forum?id=abfi2EuPB0
-draft: /pdfs/rag_draft.pdf
+# draft: /pdfs/rag_draft.pdf
 # code: https://github.com/kothasuhas/purple-problem
 ---
 

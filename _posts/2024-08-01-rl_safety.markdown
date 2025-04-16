@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Reasoning for Safety"
+date:   2025-04-01 00:00:00 +00:00
+# image: /images/ragsystem.png
+categories: reseaprojectrch
+author: "Taeyoun Kim"
+subtitle: "RL for Safety"
+venue: "Ongoing"
+# authors: "<strong>Taeyoun Kim</strong>, Jacob Springer, Aditi Raghunathan, Maarten Sap"
+# arxiv: https://arxiv.org/abs/2502.17390
+# slides: /pdfs/hands2015.pdf
+# authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
+# arxiv: https://openreview.net/forum?id=abfi2EuPB0
+# draft: /pdfs/rag_draft.pdf
+# code: https://github.com/kothasuhas/purple-problem
+---
+
+We try to understand how making language models reason through reinforcement learning improves safety. By data curation, we find that it is possible to prevent reward hacking due to underspecified safety reward functions.

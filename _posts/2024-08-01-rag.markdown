@@ -3,10 +3,12 @@ layout: post
 title:  "Mitigating Social Bias in RAG"
 date:   2024-08-01 00:00:00 +00:00
 image: /images/ragsystem.png
-categories: project
+categories: research
 author: "Taeyoun Kim"
 subtitle: "RAG"
-venue: "Ongoing"
+venue: "Preprint"
+authors: "<strong>Taeyoun Kim</strong>, Jacob Springer, Aditi Raghunathan, Maarten Sap"
+arxiv: https://arxiv.org/abs/2502.17390
 # slides: /pdfs/hands2015.pdf
 # authors: "<strong>Taeyoun Kim*</strong>, Suhas Kotha*, Aditi Raghunathan"
 # arxiv: https://openreview.net/forum?id=abfi2EuPB0

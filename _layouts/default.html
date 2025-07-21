@@ -118,20 +118,49 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }} -->
-              {% set links = namespace(items=[]) %}
-              {% if post.arxiv %}{% set links.items = links.items + ['<a href="' ~ post.arxiv ~ '">arxiv</a>'] %}{% endif %}
-              {% if post.blog %}{% set links.items = links.items + ['<a href="' ~ post.blog ~ '">blog</a>'] %}{% endif %}
-              {% if post.draft %}{% set links.items = links.items + ['<a href="' ~ post.draft ~ '">draft</a>'] %}{% endif %}
-              {% if post.video %}{% set links.items = links.items + ['<a href="' ~ post.video ~ '">video</a>'] %}{% endif %}
-              {% if post.code %}{% set links.items = links.items + ['<a href="' ~ post.code ~ '">code</a>'] %}{% endif %}
-              {% if post.model %}{% set links.items = links.items + ['<a href="' ~ post.model ~ '">model</a>'] %}{% endif %}
-              {% if post.poster %}{% set links.items = links.items + ['<a href="' ~ post.poster ~ '">poster</a>'] %}{% endif %}
-              {% if post.slides %}{% set links.items = links.items + ['<a href="' ~ post.slides ~ '">slides</a>'] %}{% endif %}
-              {% if post.website %}{% set links.items = links.items + ['<a href="' ~ post.website ~ '">website</a>'] %}{% endif %}
-              {% if post.youtube %}{% set links.items = links.items + ['<a href="' ~ post.youtube ~ '">youtube</a>'] %}{% endif %}
+              {% assign links = "" | split: "" %}
 
-              {{ links.items | join(' / ') }}
+              {% if post.arxiv %}
+                {% assign links = links | push: '<a href="' | append: post.arxiv | append: '">arxiv</a>' %}
+              {% endif %}
 
+              {% if post.blog %}
+                {% assign links = links | push: '<a href="' | append: post.blog | append: '">blog</a>' %}
+              {% endif %}
+
+              {% if post.draft %}
+                {% assign links = links | push: '<a href="' | append: post.draft | append: '">draft</a>' %}
+              {% endif %}
+
+              {% if post.video %}
+                {% assign links = links | push: '<a href="' | append: post.video | append: '">video</a>' %}
+              {% endif %}
+
+              {% if post.code %}
+                {% assign links = links | push: '<a href="' | append: post.code | append: '">code</a>' %}
+              {% endif %}
+
+              {% if post.model %}
+                {% assign links = links | push: '<a href="' | append: post.model | append: '">model</a>' %}
+              {% endif %}
+
+              {% if post.poster %}
+                {% assign links = links | push: '<a href="' | append: post.poster | append: '">poster</a>' %}
+              {% endif %}
+
+              {% if post.slides %}
+                {% assign links = links | push: '<a href="' | append: post.slides | append: '">slides</a>' %}
+              {% endif %}
+
+              {% if post.website %}
+                {% assign links = links | push: '<a href="' | append: post.website | append: '">website</a>' %}
+              {% endif %}
+
+              {% if post.youtube %}
+                {% assign links = links | push: '<a href="' | append: post.youtube | append: '">youtube</a>' %}
+              {% endif %}
+
+              {{ links | join: ' / ' }}
               <p></p>
               {{ post.excerpt }}
             </td>

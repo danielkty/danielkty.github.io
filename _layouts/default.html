@@ -118,19 +118,19 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }} -->
-              {% set links = [] %}
-              {% if post.arxiv %}{% set _ = links.append('<a href="' ~ post.arxiv ~ '">arxiv</a>') %}{% endif %}
-              {% if post.blog %}{% set _ = links.append('<a href="' ~ post.blog ~ '">blog</a>') %}{% endif %}
-              {% if post.draft %}{% set _ = links.append('<a href="' ~ post.draft ~ '">draft</a>') %}{% endif %}
-              {% if post.video %}{% set _ = links.append('<a href="' ~ post.video ~ '">video</a>') %}{% endif %}
-              {% if post.code %}{% set _ = links.append('<a href="' ~ post.code ~ '">code</a>') %}{% endif %}
-              {% if post.model %}{% set _ = links.append('<a href="' ~ post.model ~ '">model</a>') %}{% endif %}
-              {% if post.poster %}{% set _ = links.append('<a href="' ~ post.poster ~ '">poster</a>') %}{% endif %}
-              {% if post.slides %}{% set _ = links.append('<a href="' ~ post.slides ~ '">slides</a>') %}{% endif %}
-              {% if post.website %}{% set _ = links.append('<a href="' ~ post.website ~ '">website</a>') %}{% endif %}
-              {% if post.youtube %}{% set _ = links.append('<a href="' ~ post.youtube ~ '">youtube</a>') %}{% endif %}
+              {% set links = namespace(items=[]) %}
+              {% if post.arxiv %}{% set links.items = links.items + ['<a href="' ~ post.arxiv ~ '">arxiv</a>'] %}{% endif %}
+              {% if post.blog %}{% set links.items = links.items + ['<a href="' ~ post.blog ~ '">blog</a>'] %}{% endif %}
+              {% if post.draft %}{% set links.items = links.items + ['<a href="' ~ post.draft ~ '">draft</a>'] %}{% endif %}
+              {% if post.video %}{% set links.items = links.items + ['<a href="' ~ post.video ~ '">video</a>'] %}{% endif %}
+              {% if post.code %}{% set links.items = links.items + ['<a href="' ~ post.code ~ '">code</a>'] %}{% endif %}
+              {% if post.model %}{% set links.items = links.items + ['<a href="' ~ post.model ~ '">model</a>'] %}{% endif %}
+              {% if post.poster %}{% set links.items = links.items + ['<a href="' ~ post.poster ~ '">poster</a>'] %}{% endif %}
+              {% if post.slides %}{% set links.items = links.items + ['<a href="' ~ post.slides ~ '">slides</a>'] %}{% endif %}
+              {% if post.website %}{% set links.items = links.items + ['<a href="' ~ post.website ~ '">website</a>'] %}{% endif %}
+              {% if post.youtube %}{% set links.items = links.items + ['<a href="' ~ post.youtube ~ '">youtube</a>'] %}{% endif %}
 
-              {{ links | join(' / ') }}
+              {{ links.items | join(' / ') }}
 
               <p></p>
               {{ post.excerpt }}

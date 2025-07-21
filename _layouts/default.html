@@ -37,11 +37,10 @@
                 Taeyoun Kim
               </h1>
               <p>
-                I graduated with an MS in Machine Learning at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, funded by the <a href="https://www.ikef.or.kr/" target="_blank">Kwanjeong Educational Foundation</a>. I am advised by <a href="https://www.cs.cmu.edu/~aditirag/" target="_blank">Aditi Raghunathan</a> and also work with <a href="https://aviralkumar2907.github.io" target="_blank">Aviral Kumar</a> and <a href="https://maartensap.com" target="_blank">Maarten Sap</a>.
+                I graduated with an MS in Machine Learning at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, funded by the <a href="https://www.ikef.or.kr/" target="_blank">Kwanjeong Educational Foundation</a>. I am currently advised by <a href="https://aviralkumar2907.github.io" target="_blank">Aviral Kumar</a> and was previously advised by <a href="https://www.cs.cmu.edu/~aditirag/" target="_blank">Aditi Raghunathan</a>.
               </p>
               <p>
                 I am interested in AI safety, adverarial robustness, and human alignment of language models. I aim to understand how to impose better safety specifications in language models and agents that generalize to broader human values. I am also interested in understanding how inference-time compute can be leveraged for better alignment.
-                <!-- I believe that enhancing out-of-distribution / adversarial robustness and improving human alignment of foundation models makes machine learning more accessible to the public. I am interested in understanding when models break out-of-distribution to improve robustness with better pretraining/fine-tuning and high quality data curation. I am also interested in inference-time scaling for better human alignment. The regime of training is saturating but not much is understood about the limits of leveraging compute during inference.  -->
               </p>
               <p>
                 Before CMU, I earned my Bachelor's degree in Electrical & Electronic Engineering from <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">Yonsei University</a>. My undergraduate studies was funded through the National Science and Technology Scholarship of South Korea.
@@ -90,6 +89,9 @@
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
+              {% if post.blog %}
+              <a href="{{post.blog}}">blog</a> /
+              {% endif %}
               {% if post.draft %}
               <a href="{{post.draft}}">draft</a> /
               {% endif %}
@@ -98,6 +100,9 @@
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.model %}
+              <a href="{{post.model}}">model</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /

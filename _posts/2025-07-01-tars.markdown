@@ -6,7 +6,7 @@ image: /images/tars.pdf
 categories: research
 author: "Taeyoun Kim"
 subtitle: "TARS"
-venue: "Preprint"
+venue: "NeurIPS"
 authors: "<strong>Taeyoun Kim</strong>, Fahim Tajwar, Aditi Raghunathan, Aviral Kumar"
 arxiv: https://arxiv.org/abs/2507.00971
 code: https://github.com/danielkty/tars

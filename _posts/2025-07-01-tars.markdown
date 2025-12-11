@@ -11,7 +11,7 @@ authors: "<strong>Taeyoun Kim</strong>, Fahim Tajwar, Aditi Raghunathan, Aviral 
 arxiv: https://arxiv.org/abs/2507.00971
 code: https://github.com/danielkty/tars
 blog: https://training-adaptive-reasoners-safety.github.io
-model: https://huggingface.co/CMU-AIRe/TARS-1.5B
+model: https://huggingface.co/CMU-AIRe/TARS-7B
 ---
 
 We create an online RL training recipe to make LLMs reason for safety, consisting of 3 key ingredients. (1) Lightweight SFT for diversity, (2) Mixing in harmless prompts, and (3) Separating the reward system. Models trained with TARS beat larger open-weight models on the safety-refusal frontier and existing defenses such as circuit breakers. They also adaptively allocate test-time compute with longer reasoning on ambiguous prompts and learns better internal representations of harmful and harmless prompts. 
